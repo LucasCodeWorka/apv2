@@ -23,7 +23,7 @@ app.use(express.json());
 app.get('/dados', async (req, res) => {
   try {
     const client = await pool.connect();
-    const result = await client.query('SELECT * FROM INADIMPLENCIA LIMIT 100');
+    const result = await client.query('SELECT * FROM vr_ger_empresa');
     const data = result.rows;
     client.release();
     res.json(data);
