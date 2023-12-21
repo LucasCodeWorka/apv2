@@ -10,7 +10,7 @@
   "main": "index.js",
   "devDependencies": {},
   "engines": {
-    "node": "18x"
+    "node": "18.x"
   },
   "scripts": {
     "start": "node index.js",
