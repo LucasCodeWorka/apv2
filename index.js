@@ -1,6 +1,5 @@
 const express = require('express');
 const { Pool } = require('pg');
-const pool1 = require("./db");
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3001;
